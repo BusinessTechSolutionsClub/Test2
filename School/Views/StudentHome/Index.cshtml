@@ -1,0 +1,14 @@
+﻿@model School.Models.Student
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <a href="@Url.Action("Index", "StudentEnrollment", new { studentId = ViewBag.studentId })">Enroll Courses</a>
+
+
+</div>
+
